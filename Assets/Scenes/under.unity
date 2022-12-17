@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.27938604, g: 0.26134914, b: 0.20660445, a: 1}
+  m_IndirectSpecularColor: {r: 0.2793863, g: 0.26134917, b: 0.20660424, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -125,7 +125,8 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 --- !u!1 &11077781 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
   m_PrefabInstance: {fileID: 1882701619}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &11077782
@@ -777,7 +778,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &470245462 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
   m_PrefabInstance: {fileID: 1882701619}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &475796366
@@ -875,7 +877,8 @@ Light:
   m_ShadowAngle: 0
 --- !u!4 &598819020 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
   m_PrefabInstance: {fileID: 1882701619}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &616660846
@@ -952,7 +955,8 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!1 &1007029596 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 100068, guid: 221f97476fc29794da96ee45e1fb7f2e, type: 3}
+  m_CorrespondingSourceObject: {fileID: 100068, guid: 221f97476fc29794da96ee45e1fb7f2e,
+    type: 3}
   m_PrefabInstance: {fileID: 1311199436}
   m_PrefabAsset: {fileID: 0}
 --- !u!82 &1007029599
@@ -1465,7 +1469,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
+  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847,
+    type: 3}
   m_Color: {r: 0.8301887, g: 0.16760412, b: 0.16760412, a: 1}
   m_FlipX: 0
   m_FlipY: 0
