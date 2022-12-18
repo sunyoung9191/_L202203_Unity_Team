@@ -2,23 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[ExecuteInEditMode]
-public class PostEffects_Depth : MonoBehaviour
+public class PostEffects_Overlay : MonoBehaviour
 {
+    // Start is called before the first frame update
     Shader myShader;        // image effect shader 
     Material myMaterial;
 
-    public float depth = 1f;
+    public Texture2D BlendTexture;
+    public float blendOpacity = 1.0f;
 
     void Start()
     {
-        myShader = Shader.Find("Hidden/PostEffects_Depth");    // image effect shader file must have been created
+        myShader = Shader.Find("My/PostEffects/Overlay");    // image effect shader file must have been created
         myMaterial = new Material(myShader);
     }
 
     private void Update()
     {
-        depth = Mathf.Clamp(depth, 0.0f, 1.0f);
+        blendOpacity = Mathf.Clamp(blendOpacity, 0.0f, 1.0f);
     }
 
     private void OnDisable()
@@ -29,10 +30,10 @@ public class PostEffects_Depth : MonoBehaviour
         }
     }
 
-
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
-        myMaterial.SetFloat("_Depth", depth);
+        myMaterial.SetTexture("_BlendTex", BlendTexture);
+        myMaterial.SetFloat("_Opacity", blendOpacity);
         Graphics.Blit(source, destination, myMaterial);
     }
 }
