@@ -13,7 +13,7 @@ public class UI_SetActive_ground : MonoBehaviour
             "car 에셋 추가 및 배치 : 박선영\n" +
             "각각 메시 스크립트 구현:\n박현서 - Mesh_hyunseo\n박선영 - Mesh_S\n오하은 - Mesh_ohe\n양민지 - Mesh_mj\n윤하은 - Mesh_yhe\n" +
             "ui 사용 메뉴얼 구현: 박현서\n" +
-            "ground에서 heaven, under로 이동: 박현서";
+            "ground에서 heaven, under로 이동(빨간색 차 - ground to under, 노란색 차 - ground to heaven: 박현서";
         if (GameOverText.enabled == true)
         {
             GameOverText.enabled = false;
